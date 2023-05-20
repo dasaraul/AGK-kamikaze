@@ -2,6 +2,9 @@
 SetVirtualResolution( 768, 1024 )
 UseNewDefaultFonts(1)
 
+LoadImage ( 999, "bg.jpg" )
+CreateSprite ( 999, 999 )
+
 playerx as float
 playery as float
 lazerx as float = -100
@@ -48,7 +51,7 @@ do
 	if score>hiscore
 		hiscore=score
 	endif
-	SetTextString(3,"HiScore: "+str(hiscore))
+	SetTextString(4,"High Score: "+str(hiscore))
 
 
 	gosub efek_ledakan

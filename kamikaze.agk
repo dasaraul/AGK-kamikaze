@@ -58,11 +58,10 @@ FILE_NAME_1=0;Loader.agc;219;1
 FILE_NAME_2=0;PlayerMove.agc;0;4
 FILE_NAME_3=0;Player_shoots.agc;91;5
 FILE_NAME_4=0;enemy_move.agc;0;2
-FILE_NAME_5=1;efek_ledakan.agc;292;9
+FILE_NAME_5=1;efek_ledakan.agc;256;8
 FILE_NAME_6=0;stars.agc;0;7
 FILE_NAME_7=0;Text.agc;0;6
-FILE_NAME_8=0;sounds.agc;68;8
-FILE_NAME_9=0;mainmenu.agc;0;3
+FILE_NAME_8=0;mainmenu.agc;0;3
 
 [project]
 description=

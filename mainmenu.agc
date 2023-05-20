@@ -1,16 +1,20 @@
 MainMenu:
 
-Createtext(2,"Simple Shooter")
+Createtext(2,"Kamikaze Simulation")
 SetTextSize(2,100)
 SetTextPosition(2,(768-GetTexttotalwidth(2))/2,180)
 
-Createtext(3,"High Score: ")
-SetTextSize(3,60)
-SetTextPosition(3,768-GetTexttotalwidth(3),0)
+Createtext(3,"by Tamaes")
+SetTextSize(3,35)
+SetTextPosition(3,(768-GetTexttotalwidth(3))/3,280)
 
-Createtext(4, "Fire to start game")
+Createtext(4,"Rekor: ")
 SetTextSize(4,60)
-Settextposition(4,(768-GetTexttotalwidth(4))/2,900)
+SetTextPosition(4,768-GetTexttotalwidth(4),0)
+
+Createtext(5, "Start")
+SetTextSize(5,60)
+Settextposition(5,(768-GetTexttotalwidth(5))/2,900)
 
 gosub Hidegamesprites
 gosub showmenutext
@@ -25,11 +29,12 @@ gosub Hidemenutext
 
 Return
 
-// Player Ship =1
-// Player Lazer = 2
-// Enemy Ship = 3
+// index nya:
+// wibu =1
+// rudal = 2
+// amrik = 3
 // Stars = 5 to 104
-// Enemy Bullets = 110 to 114
+// rudal2 = 110 to 114
 
 Hidegamesprites:
 for i=1 to 114
@@ -45,10 +50,14 @@ Return
 
 Hidemenutext:
 SetTextVisible(2,0)
-SetTextVisible(4,0)
+SetTextVisible(3,0)
+SetTextVisible(5,0)
 Return
 
 Showmenutext:
 SetTextVisible(2,1)
-SetTextVisible(4,1)
+SetTextVisible(3,1)
+SetTextVisible(5,1)
 Return
+
+//=======================================
