@@ -52,6 +52,8 @@ do
 		hiscore=score
 	endif
 	SetTextString(4,"High Score: "+str(hiscore))
+	
+
 
 
 	gosub efek_ledakan

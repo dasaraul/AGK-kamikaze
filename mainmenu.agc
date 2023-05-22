@@ -6,11 +6,11 @@ SetTextPosition(2,(768-GetTexttotalwidth(2))/2,180)
 
 Createtext(3,"by Tamaes")
 SetTextSize(3,35)
-SetTextPosition(3,(768-GetTexttotalwidth(3))/3,280)
+SetTextPosition(3,(770+GetTexttotalwidth(3))/3,300)
 
 Createtext(4,"Rekor: ")
 SetTextSize(4,60)
-SetTextPosition(4,768-GetTexttotalwidth(4),0)
+SetTextPosition(4,603-GetTexttotalwidth(4),0)
 
 Createtext(5, "Start")
 SetTextSize(5,60)
@@ -21,7 +21,7 @@ gosub showmenutext
 
 repeat 
 	sync()
-until GetPointerPressed()=1 
+until GetRawKeyPressed(32)=1 
 
 gameover=0
 gosub Showgamesprites

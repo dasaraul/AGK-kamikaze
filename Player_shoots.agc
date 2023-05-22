@@ -1,7 +1,7 @@
 Player_shoots:
 
 // Check if player has fired
-if  GetPointerPressed()=1 and lazer_fired=0
+if  GetRawKeyPressed(16)=1 and lazer_fired=0
 	lazer_fired=1
 	lazerx=GetSpriteX(1)+GetSpriteWidth(1)/2-GetSpriteWidth(2)/2
 	lazery=getspriteY(1)-40
