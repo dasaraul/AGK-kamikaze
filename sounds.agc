@@ -1,10 +1,10 @@
 Load_sounds:
-explosion=loadsound("explosion.wav")
-lazer=loadsound("lazer.wav")
+mati=loadsound("mati.wav")
+rudal=loadsound("rudal.wav")
 Return
 
 Load_Music:
-music=LoadMusicOgg("bensound-scifi.ogg")
+music=LoadMusicOgg("wibu-perang.wav")
 PlayMusicOgg(music)
 Return
 

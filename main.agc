@@ -7,14 +7,14 @@ CreateSprite ( 999, 999 )
 
 playerx as float
 playery as float
-lazerx as float = -100
-lazery as float
-lazer_fired = 0
+rudalx as float = -100
+rudaly as float
+rudal_fired = 0
 
-enemyx as float
-enemyy as float
-enemy_direction = 4
-enemy_fired=0
+amrikx as float
+amriky as float
+amrik_direction = 4
+amrik_fired=0
 gameover=1
 
 score=0
@@ -23,7 +23,7 @@ hiscore=0
 #include "Loader.agc"
 #include "PlayerMove.agc"
 #include "Player_shoots.agc"
-#include "enemy_move.agc"
+#include "amrik_move.agc"
 #include "efek_ledakan.agc"
 #include "stars.agc"
 #include "Text.agc"
@@ -41,8 +41,8 @@ do
     
 	gosub PlayerMove
 	gosub Player_shoots
-	gosub Enemy_move
-	gosub Enemy_Shoot
+	gosub amrik_move
+	gosub amrik_Shoot
 
 
 

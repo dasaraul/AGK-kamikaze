@@ -3,9 +3,9 @@ efek_ledakan:
 if GetSpriteCollision( 2, 3 ) =1
 
 	score=score+10
-	enemyx=100: enemyy=-50
-	lazer_fired=0
-	lazerx=-50 :lazery=-50
+	amrikx=100: amriky=-50
+	rudal_fired=0
+	rudalx=-50 :rudaly=-50
 endif
 
 //kena hit
@@ -17,7 +17,7 @@ for i=0 to 4
 		SetSpritePosition(112,-100,-100)
 		SetSpritePosition(113,-100,-100)
 		SetSpritePosition(114,-100,-100)
-		enemyx=100: enemyy=-50
+		amrikx=100: amriky=-50
 
 
 	endif
