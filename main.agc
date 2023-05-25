@@ -51,7 +51,7 @@ do
 	if score>hiscore
 		hiscore=score
 	endif
-	SetTextString(4,"High Score: "+str(hiscore))
+	SetTextString(4,"Top Score: "+str(hiscore))
 	
 
 

@@ -10,7 +10,7 @@ SetTextPosition(3,(770+GetTexttotalwidth(3))/3,300)
 
 Createtext(4,"Rekor: ")
 SetTextSize(4,60)
-SetTextPosition(4,603-GetTexttotalwidth(4),0)
+SetTextPosition(4,480,0)
 
 Createtext(5, "Start")
 SetTextSize(5,60)
@@ -57,6 +57,7 @@ Return
 Showmenutext:
 SetTextVisible(2,1)
 SetTextVisible(3,1)
+SetTextVisible(4,1)
 SetTextVisible(5,1)
 Return
 

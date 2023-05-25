@@ -1,4 +1,3 @@
-// Check sprite collisions
 efek_ledakan:
 
 if GetSpriteCollision( 2, 3 ) =1
@@ -9,8 +8,7 @@ if GetSpriteCollision( 2, 3 ) =1
 	lazerx=-50 :lazery=-50
 endif
 
-
-//Check to see if any of the enemy bullets have hit the player ship
+//kena hit
 for i=0 to 4
 	if GetSpriteCollision(110+i,1) =1
 		gameover=1

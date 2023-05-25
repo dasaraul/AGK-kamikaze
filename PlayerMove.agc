@@ -1,7 +1,7 @@
 PlayerMove:
 
 // Move the ship in the X direction using GetDirectionX()
-playerx=playerx+GetDirectionY()*20
+playerx=playerx+GetDirectionX()*12
 
 // Check if the player ship is at the edge of the left side
 if playerx<0
