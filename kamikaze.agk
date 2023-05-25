@@ -45,23 +45,27 @@ FILE_0=main.agc;-1
 FILE_1=Loader.agc;-1
 FILE_2=PlayerMove.agc;-1
 FILE_3=Player_shoots.agc;-1
-FILE_4=enemy_move.agc;-1
+FILE_4=amrik_move.agc;-1
 FILE_5=efek_ledakan.agc;-1
 FILE_6=stars.agc;-1
 FILE_7=Text.agc;-1
 FILE_8=sounds.agc;-1
 FILE_9=mainmenu.agc;-1
+FILE_10=colison2.agc;-1
+FILE_11=amrik_move2.agc;-1
 
 [files]
-FILE_NAME_0=0;main.agc;641;0
-FILE_NAME_1=0;Loader.agc;219;1
-FILE_NAME_2=0;PlayerMove.agc;0;4
-FILE_NAME_3=0;Player_shoots.agc;91;5
-FILE_NAME_4=0;enemy_move.agc;0;2
-FILE_NAME_5=1;efek_ledakan.agc;256;8
-FILE_NAME_6=0;stars.agc;0;7
-FILE_NAME_7=0;Text.agc;0;6
-FILE_NAME_8=0;mainmenu.agc;0;3
+FILE_NAME_0=0;main.agc;727;0
+FILE_NAME_1=0;Loader.agc;5;1
+FILE_NAME_2=0;PlayerMove.agc;108;3
+FILE_NAME_3=0;Player_shoots.agc;208;4
+FILE_NAME_4=0;amrik_move.agc;913;8
+FILE_NAME_5=0;efek_ledakan.agc;133;7
+FILE_NAME_6=0;stars.agc;0;6
+FILE_NAME_7=0;Text.agc;0;5
+FILE_NAME_8=0;mainmenu.agc;899;2
+FILE_NAME_9=0;colison2.agc;113;9
+FILE_NAME_10=1;amrik_move2.agc;0;10
 
 [project]
 description=

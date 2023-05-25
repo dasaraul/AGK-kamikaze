@@ -16,6 +16,11 @@ amriky as float
 amrik_direction = 4
 amrik_fired=0
 gameover=1
+amrik2x as float
+amrik2y as float
+amrik2_direction = 4
+amrik2_fired=0
+gameover=1
 
 score=0
 hiscore=0
@@ -24,7 +29,9 @@ hiscore=0
 #include "PlayerMove.agc"
 #include "Player_shoots.agc"
 #include "amrik_move.agc"
+#include "amrik_move2.agc"
 #include "efek_ledakan.agc"
+#include "colison2.agc"
 #include "stars.agc"
 #include "Text.agc"
 #include "mainmenu.agc"
@@ -42,10 +49,10 @@ do
 	gosub PlayerMove
 	gosub Player_shoots
 	gosub amrik_move
+	gosub amrik_move2
 	gosub amrik_Shoot
-
-
-
+	gosub amrik2_Shoot
+	
 
 	SetTextString(1,"SCORE: "+str(score))
 	if score>hiscore
@@ -56,6 +63,8 @@ do
 
 
 
-	gosub efek_ledakan
+	gosub efek_ledakan 
+	gosub efek_ledakan2 
+
     Sync()
 loop

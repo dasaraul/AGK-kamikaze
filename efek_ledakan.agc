@@ -24,5 +24,3 @@ for i=0 to 4
 next i
 
 return
-
-
