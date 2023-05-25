@@ -16,6 +16,7 @@ amriky as float
 amrik_direction = 4
 amrik_fired=0
 gameover=1
+
 amrik2x as float
 amrik2y as float
 amrik2_direction = 4

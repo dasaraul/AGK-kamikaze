@@ -37,7 +37,7 @@ SetSpritePosition(3,100,20)
 
 // posisi musuh2
 CreateSprite(5,5)
-SetSpritePosition(5,100,20)
+SetSpritePosition(5,50,20)
 
 //rudal
 for i=0 to 4
