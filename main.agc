@@ -35,11 +35,15 @@ hiscore=0
 #include "colison2.agc"
 #include "stars.agc"
 #include "Text.agc"
+#include "sounds.agc"
 #include "mainmenu.agc"
+#include "logout.agc"
 
 gosub loader
 gosub make_stars
 gosub Make_text
+gosub bgson
+	gosub bgmusic
 
 do
 	if gameover=1
@@ -53,7 +57,6 @@ do
 	gosub amrik_move2
 	gosub amrik_Shoot
 	gosub amrik2_Shoot
-	
 
 	SetTextString(1,"SCORE: "+str(score))
 	if score>hiscore
@@ -66,6 +69,7 @@ do
 
 	gosub efek_ledakan 
 	gosub efek_ledakan2 
+	gosub metu
 
     Sync()
 loop

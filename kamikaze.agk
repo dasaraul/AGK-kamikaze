@@ -56,18 +56,6 @@ FILE_11=amrik_move2.agc;-1
 FILE_12=logout.agc;-1
 
 [files]
-FILE_NAME_0=0;main.agc;298;0
-FILE_NAME_1=0;Loader.agc;742;1
-FILE_NAME_2=0;PlayerMove.agc;103;3
-FILE_NAME_3=0;Player_shoots.agc;208;4
-FILE_NAME_4=0;amrik_move.agc;426;8
-FILE_NAME_5=0;efek_ledakan.agc;204;7
-FILE_NAME_6=0;stars.agc;0;6
-FILE_NAME_7=0;Text.agc;0;5
-FILE_NAME_8=0;mainmenu.agc;899;2
-FILE_NAME_9=0;colison2.agc;207;9
-FILE_NAME_10=0;amrik_move2.agc;900;10
-FILE_NAME_11=1;logout.agc;59;11
 
 [project]
 description=

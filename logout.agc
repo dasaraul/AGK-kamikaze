@@ -1,4 +1,4 @@
-exit:
+metu:
 
 	 if GetRawKeyPressed(27) 
 			end

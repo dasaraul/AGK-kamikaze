@@ -2,6 +2,7 @@ Player_shoots:
 
 // Check if player has fired
 if  GetRawKeyPressed(66)=1 and rudal_fired=0
+	PlaySound(rudal)
 	rudal_fired=1
 	rudalx=GetSpriteX(1)+GetSpriteWidth(1)/2-GetSpriteWidth(2)/2
 	rudaly=getspriteY(1)-40
